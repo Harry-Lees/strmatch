@@ -1,0 +1,12 @@
+[package]
+name = "strmatch"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "strmatch"
+crate-type = ["cdylib"]
+
+[dependencies]
+levenshtein = "1.0.5"
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
