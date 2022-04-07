@@ -10,6 +10,8 @@ def ratio(n: str, m: str) -> float: ...
 
 ## Examples
 
+Levenshtein distance
+
 ```python
 >>> import strmatch
 >>> str_one = 'test'
@@ -18,6 +20,7 @@ def ratio(n: str, m: str) -> float: ...
 1
 ```
 
+Levenshtein Ratio
 
 ```python
 >>> import strmatch
