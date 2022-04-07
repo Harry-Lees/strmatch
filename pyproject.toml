@@ -10,3 +10,4 @@ license = { file = "LICENSE" }
 authors = [
     {name = "Harry Lees", email = "harry.lees@gmail.com"}
 ]
+url = "https://github.com/Harry-Lees/strmatch"
