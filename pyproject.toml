@@ -1,3 +1,12 @@
 [build-system]
 requires = ["maturin==0.12"]
 build-backend = "maturin"
+
+[project]
+name = "strmatch"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    {name = "Harry Lees", email = "harry.lees@gmail.com"}
+]
