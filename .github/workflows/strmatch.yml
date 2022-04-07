@@ -1,4 +1,4 @@
-name: pytest
+name: test
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  pytest:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo
